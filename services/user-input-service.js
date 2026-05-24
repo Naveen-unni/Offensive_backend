@@ -8,7 +8,7 @@ const urldata={
     id:db_userinput.length+1,
     ...url,
 };
-console.log(db_userinput);
+
 db_userinput.push(urldata);
 return urldata;
 }
